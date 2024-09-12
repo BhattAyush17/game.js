@@ -32,7 +32,7 @@ bash
 Copy code
 git clone https://github.com/BhattAyush17/rock-paper-scissors.git
 Open the index.html file in any web browser.
-or wanna just try so :
+Or want just to try, so :
 https://rock-paper-scissor-kamehameha.netlify.app/
 Start playing!
 
