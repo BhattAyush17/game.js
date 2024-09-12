@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+h1 {
+    background-color: blueviolet;
+    color: aquamarine;
+    height: 5rem;
+    line-height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+/* Choices container */
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+/* Individual choice styling */
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 0 20px;
+    border-radius: 50%;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for choice */
+.choice:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+/* Image inside choice */
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Scoreboard section */
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#user-score, #comp-score {
+    font-size: 2rem;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+/* Labels for user and computer */
+#user-label, #comp-label {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#msg{
+    padding:10px;
+    display:inline;
+    background-color: goldenrod;
+    border-radius: 50px;
+    margin-top: 5px;
+}
