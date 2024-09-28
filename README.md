@@ -33,7 +33,7 @@ Copy code
 git clone https://github.com/BhattAyush17/rock-paper-scissors.git
 Open the index.html file in any web browser.
 Or want just to try, so :
-https://rock-paper-scissor-kamehameha.netlify.app/
+[https://rock-paper-scissor-kamehameha.netlify.app/](https://rock-paper-scissorkamehameha.netlify.app)
 Start playing!
 
 
